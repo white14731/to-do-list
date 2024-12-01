@@ -1,0 +1,41 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.section{
+    margin-bottom: 10px;
+}
+
+.app{
+    border: 1px solid black;
+    padding: 25px;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.btnBlock {
+    display: flex;
+    margin-left: 10px;
+    gap: 10px;
+    padding-right: 10px;
+}
+
+button{
+    cursor: pointer;
+}
+
+.green {
+    background-color: green;
+    color: white;
+}
