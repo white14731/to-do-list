@@ -4,7 +4,7 @@ const btnClear = document.querySelector('.clear')
 
 const list = document.querySelector('.del')
 
-let myArr = []
+// let myArr = []
 
 
 
@@ -50,7 +50,7 @@ btn.addEventListener('click', function(){
         }
 
         // myArr.push(textArr)
-        console.log(myArr);
+        //console.log(myArr);
         if (inp.length > 0){
             inpt.value = ""
         }
