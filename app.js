@@ -4,10 +4,6 @@ const btnClear = document.querySelector('.clear')
 
 const list = document.querySelector('.del')
 
-// let myArr = []
-
-
-
 btn.addEventListener('click', function(){
     let inp = inpt.value
     if(inp.length === 0){
@@ -48,9 +44,6 @@ btn.addEventListener('click', function(){
                     })
                 }
         }
-
-        // myArr.push(textArr)
-        //console.log(myArr);
         if (inp.length > 0){
             inpt.value = ""
         }
@@ -66,5 +59,4 @@ btnClear.addEventListener('click', function(){
     while (list.firstChild) {
         list.removeChild(list.firstChild);
     }
-    myArr = []
 })
